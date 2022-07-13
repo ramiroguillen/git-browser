@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/git-browser/static/js/main.18829b7f.js",
+    "main.js": "/git-browser/static/js/main.2db1fd61.js",
     "static/media/Octocat.png": "/git-browser/static/media/Octocat.363cb5edea582a89c41f.png",
     "index.html": "/git-browser/index.html",
-    "main.18829b7f.js.map": "/git-browser/static/js/main.18829b7f.js.map"
+    "main.2db1fd61.js.map": "/git-browser/static/js/main.2db1fd61.js.map"
   },
   "entrypoints": [
-    "static/js/main.18829b7f.js"
+    "static/js/main.2db1fd61.js"
   ]
 }
