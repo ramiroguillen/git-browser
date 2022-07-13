@@ -24,7 +24,7 @@ const List = () => {
                             <img className="card-img-top" src={u.avatar_url} alt={u.login} />
                             <div className="card-body">
                                 <h5 className="card-title">{u.login}</h5>
-                                <Link to={`/user/${u.login}`} className="btn btn-primary">
+                                <Link to={`/git-browser/user/${u.login}`} className="btn btn-primary">
                                     Go to Profile
                                 </Link>
                             </div>

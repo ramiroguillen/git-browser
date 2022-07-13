@@ -10,9 +10,9 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/search/:username" element={<List />} />
-          <Route path="/user/:id" element={<Single />} />
+          <Route path="/git-browser" element={<Home />} />
+          <Route path="/git-browser/search/:username" element={<List />} />
+          <Route path="/git-browser/user/:id" element={<Single />} />
         </Routes>
       </BrowserRouter>
     </>
