@@ -2,7 +2,6 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ramiroguillen.github.io/git-browser",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.16.4",
@@ -15,6 +14,8 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "main": "index.js",
+  "homepage": "https://ramiroguillen.github.io/git-browser",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
