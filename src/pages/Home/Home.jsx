@@ -26,7 +26,7 @@ const Home = () => {
                             <img src={octocat} alt="logo" className="img-fluid rounded mx-auto d-block" styles={{ border: "none" }} />
                         </div>
                         <div>
-                            <h1>GitFetch - Profile Finder for GitHub</h1>
+                            <h1>GitBrowser - Profile Finder for GitHub</h1>
                             <p>Check out the repos, followers and more, just by entering a username!</p>
                         </div>
                         <div className="container">
