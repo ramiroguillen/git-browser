@@ -36,7 +36,7 @@ const Home = () => {
                             </div>
                             <div className="input-group col-6">
                                 <input type="text" id="search" name="search" className="form-control" placeholder="Enter a username..." value={data} onChange={handleInputChange} />
-                                <Link to={check ? `/specific/${data}` : `/data/${data}`} >
+                                <Link to={check ? `/user/${data}` : `/search/${data}`} >
                                     <button disabled={data === ""} className="btn btn-outline-primary">
                                         {check ? "Go to Profile" : "Search Username"}
                                     </button>

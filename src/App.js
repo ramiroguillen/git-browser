@@ -13,7 +13,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/search/:username" element={<List />} />
           <Route path="/user/:id" element={<Single />} />
-          <Route path="/favorites" element={<List />} />
         </Routes>
       </BrowserRouter>
     </>
